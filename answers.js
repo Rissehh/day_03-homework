@@ -48,6 +48,11 @@ wolfy[1] = "Gameboy"
 ////////////////////////////////
 // Yell at the Ninja Turtles
 ////////////////////////////////
+const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+
+for (const turtle of ninjaTurtles) {
+    console.log(turtle.toUpperCase());
+}
 
 
 ////////////////////////////////
