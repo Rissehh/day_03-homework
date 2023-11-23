@@ -121,4 +121,25 @@ for (let i = 0; i < 20; i++) {
 //  Find the Median
 ////////////////////////////////
 
+const nums = [14, 11, 16, 15, 13, 16, 15, 17, 19, 11, 12, 14, 19, 11, 15, 17, 11, 18, 12, 17, 12, 71, 18, 15, 12];
+
+// Sort the array
+nums.sort(function(a, b) {
+    return a - b;
+});
+
+// Find the middle index
+const middleIndex = Math.floor(nums.length / 2);
+
+// Find the median
+let median;
+if (nums.length % 2 === 0) {
+    
+    median = (nums[middleIndex - 1] + nums[middleIndex]) / 2;
+} else {
+   
+    median = nums[middleIndex];
+}
+
+console.log(median);
 
