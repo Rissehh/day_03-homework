@@ -58,11 +58,33 @@ for (const turtle of ninjaTurtles) {
 ////////////////////////////////
 // Methods, Revisited
 ////////////////////////////////
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
 
+console.log(favMovies[8])
+
+//this put them in alphabetical order
+favMovies.sort();
+
+// adds Guardian of the galaxy to the array
+favMovies.push('Guardians of the galaxy')
+
+// reverses the array
+favMovies.reverse()
+
+favMovies.shift()
+
+favMovies.unshift()
+
+favMovies.splice('Django unchained', 'Avatar')
+console.log(favMovies)
 
 ////////////////////////////////
 // Where is Waldo
 ////////////////////////////////
+
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+                    ["Lucinda", "Jacc", "Neff", "Snoop"],
+                    ["Petunia", ["Baked Goods", "Waldo"]]];
 
 
 ////////////////////////////////
