@@ -87,6 +87,11 @@ const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
                     ["Petunia", ["Baked Goods", "Waldo"]]];
 
 
+whereIsWaldo.splice(1,1);   
+
+whereIsWaldo[2].splice(2, 2, 'No One');
+console.log(whereIsWaldo)
+
 ////////////////////////////////
 //  Excited Kitten
 ////////////////////////////////
